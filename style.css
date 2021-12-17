@@ -1,0 +1,79 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0px;
+}
+
+main {
+    background-color: aquamarine;
+    margin: 0;
+    background-image: url(http://i.ibb.co/DRyDGmB/dots.png);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: deepskyblue;
+    font-size: x-large;
+}
+
+.calc-bod {
+    background-color: white;
+    border-radius: 7%;
+    width: 450px;
+    height: 600px;
+    box-shadow: 10px 10px 10px 0px gray;
+    background-image: url(http://i.ibb.co/Gnp1ryd/peeking-cat.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding: 20px 10px 10px 47px;
+    box-sizing: border-box;
+    align-items: center bottom;
+    line-height: 45px;
+    border: 2px solid black;
+}
+
+.calc-row {
+    width: 350px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    line-height: 40px;
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    box-shadow: 3px 3px 3px 0px black;
+    background-color: purple;
+    border-radius: 5%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.button-circ {
+    height: 40px;
+    width: 40px;
+    background-color: purple;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 0px black;
+    text-align: center;
+    font-size: x-large;
+}
+.display {
+    background-color: darkslategray;
+    height: 120px;
+    border: 2px solid black;
+    box-shadow: inset 2px 2px 2px 2px black;
+}
